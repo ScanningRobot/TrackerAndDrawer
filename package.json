@@ -1,0 +1,22 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "A server for interacting with a robot using opencv.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cluster": "^0.7.7",
+    "express": "^4.13.4",
+    "extend": "^3.0.0",
+    "opencv": "^5.0.0",
+    "socket.io": "1.2.1",
+    "threads": "^0.5.4",
+    "webworker-threads": "^0.7.2"
+  }
+}
